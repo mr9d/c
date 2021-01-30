@@ -2,4 +2,6 @@
 
 ssh-keyscan github.com >> ~/.ssh/known_hosts
 git clone https://github.com/mr9d/c.git
-. /c/scripts/setup.sh
+
+chmod 077 ./c/scripts/setup.sh
+./c/scripts/setup.sh
